@@ -244,7 +244,7 @@ main{
     background: #3a4b53;
     color: white;
     border: none;
-    padding: 10px 50px;
+    padding: 10px 100px;
     cursor: pointer;
     border-radius: 3px;
     margin-top: 10px;
@@ -310,6 +310,8 @@ main{
 
 /* Bug Report */
 .bug-report i {
+    margin-top: 50px;
     font-size: 30px;
     color: #555;
+    height: 100px;
 }
