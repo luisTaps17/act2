@@ -6,39 +6,78 @@
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="footer.css">
-    <title>HEllo im luis</title>
+    <link rel="stylesheet" href="body.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Activity 2</title>
 </head>
 <body>
     <header>
-        <nav class="navbar">
-            <div class="nav-left">
-                <div class="logo">
-                    <img src="pic.jpg" alt="Home"> 
-                    <span>Logo</span>
-                </div>
-                <div class="icons">
-                    <div class="icon-container">
-                        <img src="pic.jpg" alt="Globe">
-                    </div>
-                    <div class="icon-container">
-                        <img src="pic.jpg" alt="User">
-                    </div>
-                    <div class="icon-container">
-                        <img src="pic.jpg" alt="Mail">
-                    </div>
-                    <div class="icon-container notification">
-                        <img src="pic.jpg" alt="Notifications">
-                        <span class="badge">3</span>
-                    </div>
-                </div>
-            </div>
-            <div class="profile">
-                <img src="pic.jpg" alt="User">
+        <nav>
+            <ul>
+                <li class="home_logo">
+                    <i class="fas fa-home"></i><h3>Logo</h3>
+                </li>
+                <li class="nav_container">
+                    <i class="fas fa-globe"></i>
+                </li>
+                <li class="nav_container">
+                    <i class="fas fa-user"></i>
+                </li>
+                <li class="nav_container">
+                    <i class="fas fa-envelope"></i>
+                </li>
+                <li class="nav_container">
+                    <i class="fas fa-bell"></i>
+                </li>
+            </ul>
+            <div class="profile_picture_container">
+                <img src="profile_picture.png" alt="profile_picture" class="profile_img">
             </div>
         </nav>
     </header>
     <main>
-
+        <div class="sidebar">
+            <!-- Profile Panel -->
+            <div class="panel profile-card">
+                <h2>My Profile</h2>
+                <img src="pic.jpg" alt="Profile Picture">
+                <div class="info">
+                <p><i class="fas fa-pencil-alt"></i> Designer, UI</p>
+                <p><i class="fas fa-home-alt"></i> London, UK</p>
+                <p><i class="fas fa-birthday-cake"></i>  April 1, 1988</p>
+                </div>
+            </div>
+    
+            <!-- Navigation Panel -->
+            <div class="panel nav-links">
+                <a href="#"><span>⏳</span> My Groups</a>
+                <a href="#"><span>📅</span> My Events</a>
+                <a href="#"><span>📷</span> My Photos</a>
+            </div>
+    
+            <!-- Interests Panel -->
+            <div class="panel interests">
+                <h3>Interests</h3>
+                <div class="tags">
+                    <span>News</span>
+                    <span>W3Schools</span>
+                    <span>Labels</span>
+                    <span>Games</span>
+                    <span>Friends</span>
+                    <span>Food</span>
+                    <span>Design</span>
+                    <span>Art</span>
+                    <span>Photos</span>
+                </div>
+            </div>
+    
+            <!-- Notification Panel -->
+            <div class="panel notification-box">
+                <strong>Hey!</strong>
+                <p>People are looking at your profile. Find out who.</p>
+                <button class="close-btn">✖</button>
+            </div>
+        </div>
     </main>
     <footer>
 
