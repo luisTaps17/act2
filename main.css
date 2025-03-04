@@ -1,6 +1,15 @@
+main{
+    position: relative;
+    margin-top: 0%;
+    top: 10%;
+    margin-left: 0%;
+    height: 150%;
+    display: flex;
+    flex-wrap: wrap;
+}
 .sidebar {
-    position: fixed;
-    margin-left: 100px;
+    position: relative;
+    margin-left: 250px;
     top: 70px;
     width: 300px;
     padding: 20px;
@@ -104,4 +113,103 @@
 
 .close-btn:hover {
     background: #455A64;
+}
+
+.middle-panel {
+    width: 40%;
+    margin-top: 91px;
+}
+
+/* Status Box */
+.status-box {
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.status-box input {
+    width: 96%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.post-btn {
+    margin-top: 10px;
+    background: #3a4b53;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.post-btn:hover{
+    background-color: #ccc;
+}
+
+/* User Post */
+.post {
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-info img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user-info h4 {
+    margin: 0;
+}
+
+.user-info span {
+    font-size: 12px;
+    color: gray;
+}
+
+.post-images {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.post-images img {
+    width: 48%;
+    border-radius: 5px;
+}
+
+.post-actions {
+    margin-top: 10px;
+}
+
+.post-actions button {
+    background: #3a4b53;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+.like-btn:hover{
+    background-color: #ccc;
+}
+
+.comment-btn:hover{
+    background-color: #ccc;
 }
