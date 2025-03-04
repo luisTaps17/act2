@@ -213,3 +213,103 @@ main{
 .comment-btn:hover{
     background-color: #ccc;
 }
+
+/* Right Panel */
+.right-panel {
+    width: 13%;
+    margin-top: 91px;
+    margin-left: 20px;
+}
+
+
+/* Widgets */
+.widget {
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+/* Upcoming Events */
+.upcoming-events img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.info-btn {
+    background: #3a4b53;
+    color: white;
+    border: none;
+    padding: 10px 50px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+.info-btn:hover {
+    background-color: #a5a5a5;
+}
+
+/* Friend Request */
+.friend {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.friend img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.friend-actions {
+    display: flex;
+    justify-content: center;
+}
+
+.friend-actions button {
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.accept {
+    background: #4CAF50;
+    color: white;
+}
+
+.accept:hover {
+    background-color: #96dd99;
+}
+
+.decline {
+    background: #E74C3C;
+    color: white;
+}
+
+.decline:hover {
+    background-color: #8b382e;
+}
+/* Ads */
+.ads {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Bug Report */
+.bug-report i {
+    font-size: 30px;
+    color: #555;
+}
